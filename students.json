@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Massimo Viviano",
+        "grade": "10th",
+        "gpa": 3.1
+    },
+    {
+        "name": "Sal Viviano",
+        "grade": "11th",
+        "gpa": 3.7
+    },
+    {
+        "name": "Dora Do",
+        "grade": "12th",
+        "gpa": 4.0
+    },
+    {
+        "name": "Alexandra Herrera",
+        "grade": "12th",
+        "gpa": 3.9
+    },
+    {
+        "name": "Kevin James",
+        "grade": "9th",
+        "gpa": 2.7
+    },
+    {
+        "name": "Adam Sandler",
+        "grade": "10th",
+        "gpa": 3.1
+    },
+    {
+        "name": "Jimmy Fallon",
+        "grade": "12th",
+        "gpa": 3.4
+    }
+]
