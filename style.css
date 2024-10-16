@@ -22,7 +22,7 @@ body{
     border-top-right-radius: 1em;
 }
 
-#content{
+.content{
     display:flex;
     flex-direction: wrap;
     background-color: rgb(231, 231, 231);

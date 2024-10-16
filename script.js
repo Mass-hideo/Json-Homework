@@ -1,3 +1,21 @@
+// const ids = [
+//     {
+//         name: "Massimo Viviano",
+//         grade: "10th",
+//         gpa: 3.1
+//     },
+//     {
+//         name: "Sal Viviano",
+//         grade: "10th",
+//         gpa: 3.1
+//     },
+//     {
+//         name: "Dora do",
+//         grade: "10th",
+//         gpa: 3.1
+//     }
+// ]
+
 class student{
     constructor(element, name, grade, gpa){
         this.element = element; //creates the overall element
@@ -30,7 +48,11 @@ class student{
     }
 }
 
-const idElement = document.querySelector(".content");
+// const idElement = document.querySelector(".content");
 
-const id1Element = document.createElement("div");
-idElement.appendChild(id1Element);
+// for (let i = 0; i < ids.length; i++){
+//     const id1Element = document.createElement("div");
+//     idElement.appendChild(id1Element);
+//     const id1 = new student(id1Element, ids[i].name, ids[i].grade,ids[i].gpa)
+//     id1.displayID();
+// }
