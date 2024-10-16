@@ -1,22 +1,22 @@
 // const ids = [
 //     {
 //         name: "Massimo Viviano",
-//         grade: "10th",
+//         grade: "9th",
 //         gpa: 3.1
 //     },
 //     {
 //         name: "Sal Viviano",
 //         grade: "10th",
-//         gpa: 3.1
+//         gpa: 3.7
 //     },
 //     {
 //         name: "Dora do",
-//         grade: "10th",
-//         gpa: 3.1
+//         grade: "12th",
+//         gpa: 3.8
 //     }
 // ]
 
-class student{
+class Student{
     constructor(element, name, grade, gpa){
         this.element = element; //creates the overall element
         this.name = name; //creates the name 
@@ -24,7 +24,7 @@ class student{
         this.gpa = gpa; //creates gpa
 
         this.element.classList.add('ID');
-        console.log(this);
+        // console.log(this);
     }
 
     displayID (){
@@ -45,6 +45,19 @@ class student{
         this.element.appendChild(nameElement);
         this.element.appendChild(gradeElement);
         this.element.appendChild(gpaElement);
+
+        // if (this.grade == "9th"){
+        //     this.classList.add('ninth')
+        // }
+        // else if(this.grade == "10th"){
+        //     this.classList.add('tenth')
+        // }
+        // else if( this.grade == "11th"){
+        //     this.classList.add('eleventh')
+        // }
+        // else{
+        //     this.classList.add('twelfth')
+        // }
     }
 }
 

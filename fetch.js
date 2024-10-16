@@ -6,10 +6,11 @@ async function getStudents(){
     const list = await response.json();
     console.log(list);
 
-    for (let i = 0; i < list.results.length; i++){
+    for (let i = 0; i < list.length; i++){
         const idEl = document.createElement('div');
-        const newID = new student(idEl, list.results[i].name, list.results[i].grade, list.results[i].gpa)
-        newID.displayBook();
+        contentElement.appendChild(idEl);
+        const newID = new Student(idEl, list[i].name, list[i].grade, list[i].gpa)
+        newID.displayID();
     }
 }
 
